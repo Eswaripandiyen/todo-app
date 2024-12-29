@@ -12,8 +12,7 @@ function App() {
   const links=[{label:"Home",url:"/"},
     {label:"Register",url:"./Register"},
     {label:"Login",url:"./Login"},
-    {label:"ToDo",url:"./Todo"},
-    {label: "Delete", url: "./Delete"}
+    {label:"ToDo",url:"./Todo"}
   ];
 
   return (
@@ -26,7 +25,6 @@ function App() {
     <Route path='/login' element={<Login/>}/>
     <Route path='/register' element={<Register/>}/>
     <Route path='/Todo'  element={<Todo/>}/>
-    <Route path='/Delete' element={<Todo />} />
   </Routes>
   </div>
 </Router>
