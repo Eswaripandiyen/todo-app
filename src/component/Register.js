@@ -10,8 +10,6 @@ const Register = () => {
         password: '',
     });
 
-    const [submitted, setSubmitted] = useState(false);
-
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({
