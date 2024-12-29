@@ -19,7 +19,6 @@ const Login = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log('Registration Data:', formData);
-        setSubmitted(true);
     };
 
 return(
